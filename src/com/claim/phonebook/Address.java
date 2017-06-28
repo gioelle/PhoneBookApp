@@ -20,7 +20,7 @@ public class Address {
 	
 	//this is fucking awesome
 	public String toString(){
-		return this.streetAddress + "\n" + this.city + "\n" + this.state + "\n" + this.zipcode;
+		return this.streetAddress + " " + this.city + " " + this.state + " " + this.zipcode;
 	}
 	
 	

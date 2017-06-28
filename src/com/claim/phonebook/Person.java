@@ -33,7 +33,7 @@ public class Person {
 	
 	
 	public String toString(){
-		return "First Name is: " + this.firstName + "\nLast Name is: " + this.lastName + "\nTelephone Number is: " + this.telephone;
+		return "First Name is: " + this.firstName + "\nLast Name is: " + this.lastName + "\nTelephone Number is: " + UserForm.formatPhone(this.telephone);
 	}
 	//getters & setters
 	public String[] getFullName(){
